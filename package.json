@@ -1,0 +1,28 @@
+{
+  "name": "cabinet-el-yakout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual (AR/FR) static website for Cabinet El Yakout, Dr. Atoui Nassima, hepato-gastro-enterologist.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/check.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs",
+    "qa": "node scripts/qa.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/markazi-text": "^5.3.0",
+    "@fontsource-variable/noto-naskh-arabic": "^5.3.0",
+    "@fontsource/amiri": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/el-messiri": "^5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
+    "esbuild": "^0.28.2",
+    "node-html-parser": "^9.0.7",
+    "sharp": "^0.35.5"
+  }
+}
